@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/** inicio icomoon**/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?rn04kd');
+    src:  url('../fonts/icomoon.eot?rn04kd#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?rn04kd') format('truetype'),
+      url('../fonts/icomoon.woff?rn04kd') format('woff'),
+      url('../fonts/icomoon.svg?rn04kd#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-buscar:before {
+    content: "\f002";
+  }
+  .icon-mensaje:before {
+    content: "\f003";
+  }
+  .icon-usuario:before {
+    content: "\f007";
+  }
+  .icon-eliminar:before {
+    content: "\f014";
+  }
+  .icon-copiar:before {
+    content: "\f016";
+  }
+  .icon-menu-centro:before {
+    content: "\f037";
+  }
+  .icon-menu:before {
+    content: "\f039";
+  }
+  .icon-mapa:before {
+    content: "\f041";
+  }
+  .icon-atras:before {
+    content: "\f060";
+  }
+  .icon-adelante:before {
+    content: "\f061";
+  }
+  .icon-comentar:before {
+    content: "\f075";
+  }
+  .icon-twitter:before {
+    content: "\f081";
+  }
+  .icon-facebook-square:before {
+    content: "\f082";
+  }
+  .icon-megusta:before {
+    content: "\f087";
+  }
+  .icon-no-megusta:before {
+    content: "\f088";
+  }
+  .icon-linkedin:before {
+    content: "\f08c";
+  }
+  .icon-facebook:before {
+    content: "\f09a";
+  }
+  .icon-notificacion:before {
+    content: "\f0a2";
+  }
+  .icon-ajustes:before {
+    content: "\f0ad";
+  }
+  .icon-feliz:before {
+    content: "\f118";
+  }
+  .icon-triste:before {
+    content: "\f119";
+  }
+  .icon-youtube:before {
+    content: "\f167";
+  }
+  .icon-instagram:before {
+    content: "\f16d";
+  }
+  
+  .icon-menu{
+    color: white;
+    position: fixed;
+    font-size: 40px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+  }
+/**fin  icomoon **/
+
+.buger-button{
+    background: rgba(0,0,0,0.5);
+    height: 70px;
+    width: 70px;
+    display: none;
+    line-height: 70px;
+    text-align: center; 
+    border-radius: 50%;
+    z-index: 20;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    background-color: #52c0cb;;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu  ol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ol li{
+    list-style: none;
+}
+
+.menu ol li .menu-link{
+    text-decoration: none;
+    padding: 15px 25px;;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.menu ol li .menu-link:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.nav .logo figure, 
+.nav .logo figure, img{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figure  .logo-main{
+    width: 145px;
+    height: 80px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 1024px){
+    .menu{
+        position: fixed;
+        top: 0;
+        left: -100vw;
+        background: #0e4ca07d;
+         width: 100vw;
+        z-index: 100vh;
+        display: flex;+
+        align-items: center;
+        justify-content: center;
+        transition: .3s
+      }
+
+      .icon-menu{
+          display: block;
+      }
+    
+      .menu.is-active{
+        left: 0;
+      }
+    
+      .header{
+        display: block;
+        height: auto;
+        text-align: center;
+       }
+    
+       .header .nav{
+         flex-wrap: wrap;
+         display: inline;
+       }
+    
+       .header ol{
+         display: inline;
+         margin-top: 35px;
+       }
+    
+       .header ol li {
+         height: 50px;
+       }
+    
+       .header a{
+         font-size: 20px;
+         
+       }
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 467px){
+
+}   
+
+@media screen and (max-width: 320px){
+
+}
+
+.container .envio{
+  width: 90px;
+  height: 70px;
+  background-color: #52c0cb;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin: 50px 50px;
+}
