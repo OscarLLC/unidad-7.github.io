@@ -22,18 +22,21 @@
     </div> -->
 
     <div class="login-box">
-        <img src="../assets/logo.jpg" class="avatar" alt="Avatar Image">
+        <div class="content-login">
+            <p class="text-login"><strong>Unidad 7</strong></p>
+        </div>
         <h1>Login Here</h1>
-        <form>
+        <form class="form" action="index.html" method="POST">
           <!-- USERNAME INPUT -->
           <label for="username">Username</label>
-          <input type="text" placeholder="Enter Username">
+          <input  type="text" name="user" value="" id="input-user" placeholder="Enter Username">
           <!-- PASSWORD INPUT -->
           <label for="password">Password</label>
-          <input type="password" placeholder="Enter Password">
-          <input type="submit" value="Log In">
+          <input type="password" name="password" id="input-password" placeholder="Enter Password">
+          <input  type="submit" value="Log In">
           <a href="#">I forgot my password</a><br>
         </form>
       </div>    
+      <script src="../javascript/login.js"></script>
 </body>
 </html>

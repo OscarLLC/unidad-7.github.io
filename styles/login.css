@@ -4,8 +4,6 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
     background: url(../assets/image-login.jpg) no-repeat center top;
     background-size: cover;
     font-family: sans-serif;
@@ -68,7 +66,7 @@ body {
     border: none;
     outline: none;
     height: 40px;
-    background:  #52c0cb;;
+    background:  #52c0cb;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
@@ -80,6 +78,16 @@ body {
     color: #000;
   }
   
+  .form +.content-envio{
+    background:  #52c0cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 18px;
+  }
+
+
   .login-box a {
     text-decoration: none;
     font-size: 12px;
@@ -89,4 +97,29 @@ body {
   
   .login-box a:hover {
     color: #fff;
+  }
+
+.content-login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  .text-login{
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    background-color: #52c0cb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: -150px;
+    font-size: 22px;
+  }
+
+  .text-login strong{
+    font-family: sans-serif;
+    letter-spacing: 2px;
   }
