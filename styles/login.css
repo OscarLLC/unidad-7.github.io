@@ -62,7 +62,7 @@ body {
     font-size: 16px;
   }
   
-  .login-box input[type="submit"] {
+  /* .login-box input[type="submit"] {
     border: none;
     outline: none;
     height: 40px;
@@ -71,12 +71,30 @@ body {
     font-size: 18px;
     border-radius: 20px;
   }
-  
-  .login-box input[type="submit"]:hover {
+   */
+.button{
+  border: none;
+  outline: none;
+  height: 40px;
+  background:  #52c0cb;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.button:hover{
+  cursor: pointer;
+  background: #07dff5;;
+  color: #000;
+}
+
+  /* .login-box input[type="submit"]:hover {
     cursor: pointer;
     background: #07dff5;;
     color: #000;
-  }
+  } */
   
   .form +.content-envio{
     background:  #52c0cb;

@@ -1,5 +1,5 @@
-let user = "oscar"
-let password = "123"
+let user = "oscar";
+let password = "123";
 
 function recibirData(keyboarUser, keyboarPassword){
     if(keyboarUser === user && keyboarPassword){
@@ -10,5 +10,11 @@ function recibirData(keyboarUser, keyboarPassword){
 }
 
 function login(){
-    
+    let usuario = document.getElementById("input-user").value;
+    let clave = document.getElementById("input-password").value;
+    if(recibirData(usuario,clave)){
+        window.location.href="file:///C:/Users/Oscar%20Lopez/Documents/Proyects/Unidad-7/index.html";
+    }else{
+        alert("error usuario o contraseña incorrectos..!")
+    }
 }
