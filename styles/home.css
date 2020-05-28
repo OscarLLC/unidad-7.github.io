@@ -190,7 +190,7 @@ figure  .logo-main{
         background: #0e4ca07d;
          width: 100vw;
         z-index: 100vh;
-        display: flex;+
+        display: flex;
         align-items: center;
         justify-content: center;
         transition: .3s
