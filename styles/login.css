@@ -142,3 +142,29 @@ body {
     font-family: 'Courgette', cursive;
     letter-spacing: 2px;
   }
+
+  @media screen and (max-width:1024px){
+
+  }
+
+  @media screen and (max-width:767px){
+    
+  }
+
+  @media screen and (max-width:467px){
+    
+  }
+
+  @media screen and (max-width:319px){
+    .login-box {
+      height: 390px;
+      padding: 40px 30px;
+      margin-top: 45px;
+     
+    }
+
+    .button{
+      margin-bottom: 10px;
+    }
+    
+  }

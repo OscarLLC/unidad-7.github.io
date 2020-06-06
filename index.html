@@ -9,21 +9,22 @@
 </head>
     <body>
         <div class="login-box">
-            <div class="content-login">
-                <p class="text-login"><strong>Unidad 7</strong></p>
-            </div>
-            <h1>Login Here</h1>
-            <form class="form" action="index.html" method="POST">
-            <!-- USERNAME INPUT -->
-            <label for="username">Username</label>
-            <input  type="text" name="user" value="" id="input-user" placeholder="Enter Username">
-            <!-- PASSWORD INPUT -->
-            <label for="password">Password</label>
-            <input type="password" name="password" id="input-password" placeholder="Enter Password">
-            <button class="button" type="button" name="button" onclick="login()">Log In</button>
-            <a href="#">Reset password</a><br>
-            <a href="#">Register here</a><br>
+            <form class="form" action="index.html" method="post">
+                <div class="content-login">
+                    <p class="text-login"><strong>Unidad 7</strong></p>
+                </div>
+                <h1>Login Here</h1>
+                <!-- USERNAME INPUT -->
+                <label for="username">Username</label>
+                <input  type="text" name="username" value="" id="input-user" placeholder="Enter Username">
+                <!-- PASSWORD INPUT -->
+                <label for="password">Password</label>
+                <input type="password" name="password" id="input-password" placeholder="Enter Password">
+                <button class="button" type="button" name="button" onclick="login()">Log In</button>
+                <a href="#">Reset password</a><br>
+                <a href="#">Register here</a><br>
             </form>
         </div>
-    </body> 
+        <script src="./javascript/login.js"></script>
+    </body>  
 </html>
