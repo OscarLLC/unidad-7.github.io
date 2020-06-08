@@ -1,5 +1,5 @@
 const menu = document.querySelector(".menu");
-const bugerButton = document-querySelector("#bugerMenu");
+const bugerButton = document.querySelector("#bugerMenu");
 
 bugerButton.addEventListener('click', hidenShow)
     function hidenShow(){
