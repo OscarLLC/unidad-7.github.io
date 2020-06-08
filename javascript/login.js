@@ -1,5 +1,5 @@
 let user = "oscar";
-let password = "123";
+let password = "12345";
 
 function receiveData(keyboarUser, keyboarPassword){
     if(keyboarUser === user && keyboarPassword === password){
